@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cima {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+#navigation {
+    display: flex;
+    gap: 4vw;
+    padding: 30px;
+    align-items: center;
+}
+#bt-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#img-menu {
+    width: 2vw;
+}
+.link-nav {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+#marca {
+    color: #FFF;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+/*Início - chamada*/
+#chamada {
+    background-image: url("assets/fundo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+#info {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 3.5vw 0 3.5vw 0;
+}
+#titulo {
+    color: #FFF;
+    font-size: 4.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#p-chamada {
+    color: #FFF;
+    font-size: 1.2vw;
+}
+.paragrafo {
+    font-family: 'Roboto', sans-serif;
+}
+#bt-chamada {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bts {
+    padding: 8px 4vw;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family: helvetica;
+    text-transform: uppercase;
+    background-color: #4c00af;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.bts:hover {
+    transform: scale(1.05);
+}
+#box-img {
+    display: flex;
+    align-items: flex-end;
+}
+#img-chamada {
+    width: 28vw;
+}
+/*Fim - chamada*/
+
+/*Início - investimentos*/
+#investimentos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12vw 50px;
+}
+#text-inv {
+    width: 40vw;
+    font-size: 1.4vw;
+}
+#img-investimentos {
+    width: 15vw;
+}
+#compras {
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    align-items: center;
+    padding: 50px 50px 36vh 50px;
+    background-color: #202020;
+}
+#info-premium {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#p-premium {
+    color: #01a509;
+    font-size: 1.2vw;
+}
+#price-antigo {
+    color: #ff1919;
+    font-size: 1.2vw;
+}
+#price {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #FFF;
+}
+#comprar-agora {
+    display: flex;
+    flex-direction: column;
+}
+#bt-premium {
+    padding: 1vw;
+    background-color: #01a509;
+    border: none;
+    border-radius: 1vw;
+    color: #FFF;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: 1.5vw;
+}
+#bt-premium:hover {
+    transform: scale(1.05);
+}
+#info-bt-premium {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin: 1vw 0 0 1vw;
+}
+/*Fim - investimentos*/
+
+#baixo {
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+}
+#direitos {
+    color: #FFF;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
